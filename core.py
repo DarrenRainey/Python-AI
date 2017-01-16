@@ -25,6 +25,7 @@ while True:
 		print("Help	-	Displays this menu")
 		print("Exit	-	Exits the program")
 		print("Hello	-	Greeting")
+		print("Time	-	Displays the current time")
     
 	else:
 		print("I did not understand what you said")
