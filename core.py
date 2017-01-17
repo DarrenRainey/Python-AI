@@ -28,4 +28,6 @@ while True:
 		print("Time	-	Displays the current time")
     
 	else:
-		print("I did not understand what you said")
+		Error = ['What was that ?', 'I"m sorry I did not understand you', 'Excuse me, What was that ?', 'Please say that again im not sure what you mean']
+		print (Error[int(random.random() * len(Error))])
+		#print("I did not understand what you said")
