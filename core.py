@@ -1,9 +1,9 @@
-	# AI Core v3 By Darren Rainey
-	import os
-	from time import gmtime, strftime
-	import random
+# AI Core v3 By Darren Rainey
+import os
+from time import gmtime, strftime
+import random
 
-	while True:
+while True:
 		Greetings = ['Hello', 'Hey', 'Greetings']
 		userInput = raw_input(">>> ")
 
