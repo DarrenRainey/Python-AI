@@ -1,0 +1,8 @@
+This lookup table contains unique ids for each function to make it quicker and easier to find the function you are looking for by using a simple search.
+
+ID:                  Function:
+IDA0001              Hello/Greeting
+IDA0002              Time Function
+IDA0003              Exit Function
+IDA0004              Help/Guide Function
+IDA0005              Error Function
