@@ -31,6 +31,11 @@ while True:
 			print("Exit	-	Exits the program")
 			print("Hello	-	Greeting")
 			print("Time	-	Displays the current time")
+			
+		# IDA0006 Status Report Function
+		elif userInput in ['status', 'Status', 'STATUS']:
+			print("Current System Status")
+			os.system("sh External/Status.sh")
 
 		# IDA0005 Error Function
 		else:
