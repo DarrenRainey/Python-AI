@@ -6,6 +6,9 @@ import random
 # Text To Speech Requirments
 from espeak import espeak
 
+# Debug Functions
+# espeak.synth("Test")
+
 while True:
 		Greetings = ['Hello', 'Hey', 'Greetings']
 		userInput = raw_input(">>> ")
