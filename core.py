@@ -3,6 +3,9 @@ import os
 from time import gmtime, strftime
 import random
 
+# Text To Speech Requirments
+from espeak import espeak
+
 while True:
 		Greetings = ['Hello', 'Hey', 'Greetings']
 		userInput = raw_input(">>> ")
