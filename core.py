@@ -37,7 +37,7 @@ while True:
 			print("Exit	-	Exits the program")
 			print("Hello	-	Greeting")
 			print("Time	-	Displays the current time")
-			print("Status	-	Displays System Status Report
+			print("Status	-	Displays System Status Report")
 			
 		# IDA0006 Status Report Function
 		elif userInput in ['status', 'Status', 'STATUS']:
