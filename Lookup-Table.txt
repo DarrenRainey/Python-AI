@@ -7,3 +7,4 @@ IDA0003              Exit Function
 IDA0004              Help/Guide Function
 IDA0005              Error Function
 IDA0006              Status Report Function
+IDA0007              Memo Function
