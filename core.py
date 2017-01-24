@@ -43,6 +43,12 @@ while True:
 		elif userInput in ['status', 'Status', 'STATUS']:
 			print("Current System Status")
 			os.system("sh External/Status.sh")
+			
+		# IDA0007 Memo Function
+		elif userInput in ['memo', 'MEMO', 'Memo']:
+			print("Greeting Memo")
+			os.system("mkdir Memos/ &2> /dev/null")
+			os.system("nano $(echo Memo/$RANDOM.txt")
 
 		# IDA0005 Error Function
 		else:
